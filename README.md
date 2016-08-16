@@ -2,7 +2,7 @@
 
 [Heroku link][heroku]
 
-[heroku]:
+[heroku]:http://heroku.com
 
 ## Minimum Viable Product
 
@@ -13,18 +13,6 @@
 - Arrow key functionality.  Board moves along with arrow keys.
 - Game is won if user gets to 2048.
 
-## Design Docs
-* [View Wireframes][views]
-* [React Components][components]
-* [Flux Cycles][flux-cycles]
-* [API endpoints][api-endpoints]
-* [DB schema][schema]
-
-[views]: docs/views.md
-[components]: docs/components.md
-[flux-cycles]: docs/flux-cycles.md
-[api-endpoints]: docs/api-endpoints.md
-[schema]: docs/schema.md
 
 ## Implementation Timeline
 
@@ -35,7 +23,7 @@
 - [ ] Create class for tile, board
 - [ ] Create methods for tile and board
 - [ ] Create methods for shifts based off arrow key input
-- [ ] Score functionality 
+- [ ] Score functionality
 
 ### Phase 2: Implement CSS and HTML design (1 day)
 
