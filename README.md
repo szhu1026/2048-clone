@@ -1,4 +1,4 @@
-# FresherNote
+# 2048
 
 [Heroku link][heroku]
 
