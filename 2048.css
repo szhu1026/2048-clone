@@ -51,28 +51,89 @@ table {
 }
 
 .Board {
-  margin: 0 auto;
-  width: 428px;
-  height: 428px;
-  display: block;
-  /*border: 12px solid #959289;*/
-  /*border-radius: 5px;*/
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+  width: 450px;
+  height: 450px;
+  display: table;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-family: verdana, sans-serif;
+	border: 15px solid black;
+  border-radius: 6px;
+	font-weight: bold;
+	position: absolute;
+}
+
+.win {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+  width: 450px;
+  height: 465px;
+	margin-top: 15px;
+	font-family: verdana, sans-serif;
+	border: 15px solid black;
+  border-radius: 6px;
+	font-weight: bold;
+	position: absolute;
+	z-index: 1;
+}
+
+.win p {
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	top: 45%;
 }
 
 .firstRow, .secondRow, .thirdRow, .fourthRow{
   display: block;
   float: left;
   clear: both;
+	border-bottom: 15px solid black;
+	vertical-align: middle;
 }
 
 .Board li {
-  display: block;
-  float: left;
+  display: table-cell;
   list-style-type: none;
-  width: 107px;
-  height: 107px;
+  width: 105px;
+  height: 105px;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 15px solid black;
+	font-size: 30px;
 }
 
-.Board canvas{
-  border: 12px solid #959289;
+.firstRow li:last-child{
+	border-right: none;
+}
+
+.secondRow li:last-child {
+	border-right: none;
+}
+
+.thirdRow li:last-child {
+	border-right: none;
+}
+
+.fourthRow li:last-child {
+	border-right: none;
+}
+
+.fourthRow {
+	border-bottom: none;
+}
+
+.header{
+	font-size: 50px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: verdana, sans-serif;
 }
