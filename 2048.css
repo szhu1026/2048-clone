@@ -108,8 +108,6 @@ table {
 	vertical-align: middle;
 	border-right: 15px solid black;
 	font-size: 30px;
-	transition: .25s;
-  left: 0;
 }
 
 .firstRow li:last-child{
