@@ -134,7 +134,7 @@ table {
 .top {
 	text-align: center;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px 20px 0 20px;
 	font-family: verdana, sans-serif;
 	display: block;
 	overflow: hidden;
@@ -179,4 +179,9 @@ table {
 .score{
 	padding:4px;
 	font-size: 15px;
+}
+
+.description{
+	padding: 20px;
+	font-size: 20px;
 }
