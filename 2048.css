@@ -80,7 +80,6 @@ table {
 	border: 15px solid black;
   border-radius: 6px;
 	font-weight: bold;
-	position: absolute;
 	z-index: 1;
 }
 
@@ -310,9 +309,8 @@ table {
 }
 
 .icons{
-	position: absolute;
-	left: 50px;
-	top: 15px;
+	margin-left: 45%;
+	padding: 20px 0;
  }
 
  .newgamebutton{
